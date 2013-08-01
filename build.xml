@@ -3,7 +3,9 @@
 
 	<property name="dist.dir" value="dist" />
 
-	<target name="clean" description="Cleans up all artifacts."/>
+	<target name="clean" description="Cleans up all artifacts.">
+		<delete dir="${dist.dir}"/>
+	</target>
 
 	<target name="make.patch" depends="clean" description="Creates a LexEVS patch jar.">
 		<jar destfile="${dist.dir}/lbPatch.jar" basedir="resources" />
