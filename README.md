@@ -12,7 +12,7 @@ ___OR___
 
 Download the [zip file](https://github.com/lexevs/lexevs-umls-loader-patch/archive/master.zip).
 
-Run the command ```ant build``` from the top level directory of this project.
+Run the command ```ant``` from the top level directory of this project.
 The resulting patch jar will be located in ```dist/lbPatch.jar```. 
 
 Install
